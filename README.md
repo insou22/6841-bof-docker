@@ -15,3 +15,14 @@
 3) `./build.sh` (requires sudo priveleges)
 4) A (zsh) shell into the container will open automatically after building for you.
 5) To reconnect to the container, use `./reconnect.sh`
+
+## Fun facts:
+
+- The standard Ubuntu Docker image doesn't have multiarch 32-bit support for some reason
+- To destroy all traces of this container / image after, use:
+  - `sudo docker ps -a`
+  - `sudo docker container stop {container id}`
+  - `sudo docker container rm {container id}`
+  - `sudo docker image ls -a`
+  - `sudo docker image rm {image id}`
+- ...
