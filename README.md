@@ -18,7 +18,7 @@
 
 ## Fun facts:
 
-- The standard Ubuntu Docker image doesn't have multiarch 32-bit support for some reason
+- The standard Ubuntu Docker image doesn't have multiarch 32-bit support for some reason (probably fair amount of overhead for a generic container)
 - To destroy all traces of this container / image after, use:
   - `sudo docker ps -a`
   - `sudo docker container stop {container id}`
