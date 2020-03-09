@@ -10,7 +10,7 @@
 
 ## How to run:
 
-1) Install Docker (on ubuntu: `sudo apt install docker.io`)
+1) Install Docker (on ubuntu/debian: `sudo apt install docker.io`)
 2) `git clone https://github.com/insou22/6841-bof-docker && cd 6841-bof-docker`
 3) `./build.sh` (requires sudo priveleges)
 4) A (zsh) shell into the container will open automatically after building for you.
