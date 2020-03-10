@@ -12,11 +12,11 @@
 
 1) Install Docker (on ubuntu/debian: `sudo apt install docker.io`)
 2) Start up the Docker daemon: `sudo systemctl start docker`
-2.5) Optionally, add the Docker daemon to your systemd to start on boot: `sudo systemctl enable docker`
-3) `git clone https://github.com/insou22/6841-bof-docker && cd 6841-bof-docker`
-4) `./build.sh` (requires sudo priveleges)
-5) A (zsh) shell into the container will open automatically after building for you.
-6) To reconnect to the container, use `./reconnect.sh`
+3) Optionally, add the Docker daemon to your systemd to start on boot: `sudo systemctl enable docker`
+4) `git clone https://github.com/insou22/6841-bof-docker && cd 6841-bof-docker`
+5) `./build.sh` (requires sudo priveleges)
+6) A (zsh) shell into the container will open automatically after building for you.
+7) To reconnect to the container, use `./reconnect.sh`
 
 ## Fun facts:
 
